@@ -5,6 +5,7 @@ Link to our Github Repository : https://github.com/Armalyca/TAVERNIER_KERDILES-J
 The IDE used was Netbeans.
 
 Launch instructions :
+
 Version 1 :
 1 - Import the project on your IDE
 2 - Create a Java DB named JEEPRJ with username 'jee' and password 'jee'.
@@ -16,6 +17,7 @@ Version 1 :
   	("DROP TABLE IF EXISTS" wasn't supported by our version of SQL)  
 5 - The project should be ready to build and run
 6 - You can login with 'admin' 'admin', or 'empl' 'empl' Credentials on the opened webpage
+
 
 Version 2 :
 1 - Import The project on your IDE
