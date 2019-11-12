@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 oct. 2019, 11:32:27
+    Author     : Mathilde Kerdiles et Emilie Tavernier
+*/
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Error messages */
+p {
+  color: red;
+}
+
+/* BEGIN - Nav bar style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:5px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #12b4d6;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+    color: white;
+}
+/* END - Nav bar style*/
+
+button {
+    height: 30px;
+    width:75px;
+    margin-left:5px;
+    cursor:pointer;
+    padding:3px;
+    border:1px solid #fff;
+    border-radius:5px;
+}
+
+span {
+  float: right;
+}
+
+.displayNone{
+    display:none;
+}
+
+/* BEGIN -  employee table style */
+#customers {
+border-collapse: collapse;
+}
+
+#customers td, #customers th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: black;
+}
+/* END -  employee table style */
+
+#login_form th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+
+#login_form {
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius:5px;
+}
+
+input {
+ padding:3px;
+ border:1px solid #f2f2f2;
+ border-radius:5px;
+ width:400px;
+}
+.normalSizeInput {
+ width:200px;
+}
+.shortInput {
+ width:163px;
+}
+input:focus {border:1px solid #12b4d6;}
+input:hover {border:1px solid #12b4d6;}
+
+input::placeholder{color: grey;}
+
+input[type=radio]{
+ width:50px;
+ }
+
+input[type=submit] {
+ width:75px;
+ margin-left:5px;
+ cursor:pointer;
+ padding:3px;
+ border:1px solid #fff;
+ border-radius:5px;
+ color: white;
+ background-color: #12b4d6;
+ }
+
