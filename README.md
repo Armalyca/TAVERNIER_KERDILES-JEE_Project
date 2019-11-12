@@ -7,16 +7,16 @@ The IDE used was Netbeans.
 Launch instructions :
 
 Version 1 :
-1 - Import the project on your IDE
-2 - Create a Java DB named JEEPRJ with username 'jee' and password 'jee'.
-3 - You may check in /WEB-INF/db.properties file that dbUrl hold the valid path to JEEPRJ database
-4 - Run /WEB-INF/EmployeesSQL.sql and /WEB-INF/CredentialsSQL.sql scripts on your database to create
+  1 - Import the project on your IDE
+  2 - Create a Java DB named JEEPRJ with username 'jee' and password 'jee'.
+  3 - You may check in /WEB-INF/db.properties file that dbUrl hold the valid path to JEEPRJ database
+  4 - Run /WEB-INF/EmployeesSQL.sql and /WEB-INF/CredentialsSQL.sql scripts on your database to create
     and populate new EMPLOYEES and CREDENTIALS table
      -> If the tables EMPLOYEES and CREDENTIALS don't exist in your database, 
   	please comment the "DROP TABLE" statements before running the script 
   	("DROP TABLE IF EXISTS" wasn't supported by our version of SQL)  
-5 - The project should be ready to build and run
-6 - You can login with 'admin' 'admin', or 'empl' 'empl' Credentials on the opened webpage
+  5 - The project should be ready to build and run
+  6 - You can login with 'admin' 'admin', or 'empl' 'empl' Credentials on the opened webpage
 
 
 Version 2 :
